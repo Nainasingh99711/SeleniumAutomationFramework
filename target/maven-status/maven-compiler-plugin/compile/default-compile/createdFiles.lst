@@ -1,0 +1,12 @@
+com\FlipkartProject\Pages\MyOrdersPage.class
+com\FlipkartProject\utils\Screenshot.class
+com\FlipkartProject\Pages\Fashion.class
+com\FlipkartProject\Pages\FiltersPage.class
+com\FlipkartProject\Pages\PageNavigation.class
+com\FlipkartProject\Pages\ElectronicsPage.class
+com\FlipkartProject\Pages\LoginPage.class
+com\FlipkartProject\Pages\AddToCartPage.class
+com\FlipkartProject\Pages\SearchProductPage.class
+com\FlipkartProject\Pages\GroceryPage.class
+com\FlipkartProject\Pages\MyProfilePage.class
+com\FlipkartProject\Pages\ProductSpecificationPAge.class

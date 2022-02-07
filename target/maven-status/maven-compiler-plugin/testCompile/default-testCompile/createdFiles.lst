@@ -1,0 +1,12 @@
+com\FlipkartProject\Tests\SearchProductTest.class
+com\FlipkartProject\Tests\LoginTest.class
+com\FlipkartProject\Tests\AddToCartTest.class
+com\FlipkartProject\Tests\MyProfileTest.class
+com\FlipkartProject\Tests\BaseTest.class
+com\FlipkartProject\Tests\GroceryTest.class
+com\FlipkartProject\Tests\PageNavigationTest.class
+com\FlipkartProject\Tests\ElectronicsTest.class
+com\FlipkartProject\Tests\FiltersTest.class
+com\FlipkartProject\Tests\FashionTest.class
+com\FlipkartProject\Tests\MyOrdersTest.class
+com\FlipkartProject\Tests\ProductSpecificationTest.class

@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 195.173 s <<< FAILURE! - in TestSuite
+Test_01_invalidLogin(com.FlipkartProject.Tests.LoginTest)  Time elapsed: 21.314 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(text(),'Naina')] (tried for 15 second(s) with 500 milliseconds interval)
+	at com.FlipkartProject.Tests.LoginTest.Test_01_invalidLogin(LoginTest.java:36)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Naina')]"}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NAINA', ip: '192.168.101.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\naina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b466bb7d7f52b59992fb44ec73a3e4d
+*** Element info: {Using=xpath, value=//div[contains(text(),'Naina')]}
+	at com.FlipkartProject.Tests.LoginTest.Test_01_invalidLogin(LoginTest.java:36)
+
+Test_01_changeColorAndStorage(com.FlipkartProject.Tests.ProductSpecificationTest)  Time elapsed: 4.022 s  <<< FAILURE!
+java.lang.AssertionError: expected [APPLE iPhone 12 ( 64 GB GB Storage, 0 GB RAM ) Online at Best Price On Flipkart.com] but found [Buy Apple iPhone 12 ( 128 GB Storage ) Online at Best Price On Flipkart.com]
+	at com.FlipkartProject.Tests.ProductSpecificationTest.Test_01_changeColorAndStorage(ProductSpecificationTest.java:36)
+

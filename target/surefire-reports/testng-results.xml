@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="20" total="42" passed="20" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-07T11:21:29Z" name="Suite" finished-at="2022-02-07T11:24:42Z" duration-ms="193262">
+    <groups>
+      <group name="Test">
+        <method signature="AddToCartTest.Test_01_addTOCart()[pri:0, instance:com.FlipkartProject.Tests.AddToCartTest@7d0332e1]" name="Test_01_addTOCart" class="com.FlipkartProject.Tests.AddToCartTest"/>
+        <method signature="ElectronicsTest.Test_01_Electronics()[pri:0, instance:com.FlipkartProject.Tests.ElectronicsTest@cd7f1ae]" name="Test_01_Electronics" class="com.FlipkartProject.Tests.ElectronicsTest"/>
+        <method signature="FashionTest.Test_01_fashion()[pri:0, instance:com.FlipkartProject.Tests.FashionTest@60e949e1]" name="Test_01_fashion" class="com.FlipkartProject.Tests.FashionTest"/>
+        <method signature="FiltersTest.Test_01_popularityFilter()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" name="Test_01_popularityFilter" class="com.FlipkartProject.Tests.FiltersTest"/>
+        <method signature="FiltersTest.Test_02_priceLowToHigh()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" name="Test_02_priceLowToHigh" class="com.FlipkartProject.Tests.FiltersTest"/>
+        <method signature="FiltersTest.Test_03_priceHighToLow()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" name="Test_03_priceHighToLow" class="com.FlipkartProject.Tests.FiltersTest"/>
+        <method signature="GroceryTest.Test_01_groceryPageVerification()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" name="Test_01_groceryPageVerification" class="com.FlipkartProject.Tests.GroceryTest"/>
+        <method signature="GroceryTest.Test_02_groceryProductSearch()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" name="Test_02_groceryProductSearch" class="com.FlipkartProject.Tests.GroceryTest"/>
+        <method signature="LoginTest.Test_01_invalidLogin()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" name="Test_01_invalidLogin" class="com.FlipkartProject.Tests.LoginTest"/>
+        <method signature="LoginTest.Test_02_validLogin()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" name="Test_02_validLogin" class="com.FlipkartProject.Tests.LoginTest"/>
+        <method signature="LoginTest.Test_03_logout()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" name="Test_03_logout" class="com.FlipkartProject.Tests.LoginTest"/>
+        <method signature="MyOrdersTest.Test_01_myOrders()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" name="Test_01_myOrders" class="com.FlipkartProject.Tests.MyOrdersTest"/>
+        <method signature="MyOrdersTest.Test_02_OrderIn2020()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" name="Test_02_OrderIn2020" class="com.FlipkartProject.Tests.MyOrdersTest"/>
+        <method signature="MyOrdersTest.Test_03_ReviewOrder()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" name="Test_03_ReviewOrder" class="com.FlipkartProject.Tests.MyOrdersTest"/>
+        <method signature="MyProfileTest.Test_01_myAddress()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" name="Test_01_myAddress" class="com.FlipkartProject.Tests.MyProfileTest"/>
+        <method signature="MyProfileTest.Test_02_deleteSavedAddress()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" name="Test_02_deleteSavedAddress" class="com.FlipkartProject.Tests.MyProfileTest"/>
+        <method signature="PageNavigationTest.Test_01_navigation()[pri:0, instance:com.FlipkartProject.Tests.PageNavigationTest@3c4bc9fc]" name="Test_01_navigation" class="com.FlipkartProject.Tests.PageNavigationTest"/>
+        <method signature="ProductSpecificationTest.Test_01_changeColorAndStorage()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" name="Test_01_changeColorAndStorage" class="com.FlipkartProject.Tests.ProductSpecificationTest"/>
+        <method signature="ProductSpecificationTest.Test_02_changePincode()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" name="Test_02_changePincode" class="com.FlipkartProject.Tests.ProductSpecificationTest"/>
+        <method signature="ProductSpecificationTest.Test_03_Reviews()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" name="Test_03_Reviews" class="com.FlipkartProject.Tests.ProductSpecificationTest"/>
+        <method signature="SearchProductTest.Test_01_searchAndAddToWishlist()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" name="Test_01_searchAndAddToWishlist" class="com.FlipkartProject.Tests.SearchProductTest"/>
+        <method signature="SearchProductTest.Test_02_deleteFromWishlist()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" name="Test_02_deleteFromWishlist" class="com.FlipkartProject.Tests.SearchProductTest"/>
+      </group> <!-- Test -->
+    </groups>
+    <test started-at="2022-02-07T11:21:29Z" name="Test" finished-at="2022-02-07T11:24:42Z" duration-ms="193262">
+      <class name="com.FlipkartProject.Tests.MyOrdersTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:07Z" name="intializeWebdriver" finished-at="2022-02-07T11:23:08Z" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:08Z" name="openUrl" finished-at="2022-02-07T11:23:10Z" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_myOrders()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:10Z" name="Test_01_myOrders" finished-at="2022-02-07T11:23:16Z" duration-ms="5513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_myOrders -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:16Z" name="closeBrowser" finished-at="2022-02-07T11:23:16Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:16Z" name="attachScreenshot" finished-at="2022-02-07T11:23:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_myOrders status=SUCCESS method=MyOrdersTest.Test_01_myOrders()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:16Z" name="intializeWebdriver" finished-at="2022-02-07T11:23:17Z" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:17Z" name="openUrl" finished-at="2022-02-07T11:23:19Z" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_02_OrderIn2020()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:19Z" name="Test_02_OrderIn2020" finished-at="2022-02-07T11:23:25Z" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02_OrderIn2020 -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:25Z" name="attachScreenshot" finished-at="2022-02-07T11:23:25Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_02_OrderIn2020 status=SUCCESS method=MyOrdersTest.Test_02_OrderIn2020()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:25Z" name="closeBrowser" finished-at="2022-02-07T11:23:25Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:25Z" name="intializeWebdriver" finished-at="2022-02-07T11:23:26Z" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:26Z" name="openUrl" finished-at="2022-02-07T11:23:28Z" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_03_ReviewOrder()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:28Z" name="Test_03_ReviewOrder" finished-at="2022-02-07T11:23:35Z" duration-ms="7219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03_ReviewOrder -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:35Z" name="attachScreenshot" finished-at="2022-02-07T11:23:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_03_ReviewOrder status=SUCCESS method=MyOrdersTest.Test_03_ReviewOrder()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.MyOrdersTest@3569edd5]" started-at="2022-02-07T11:23:35Z" name="closeBrowser" finished-at="2022-02-07T11:23:36Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.FlipkartProject.Tests.MyOrdersTest -->
+      <class name="com.FlipkartProject.Tests.ElectronicsTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.ElectronicsTest@cd7f1ae]" started-at="2022-02-07T11:22:25Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:26Z" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.ElectronicsTest@cd7f1ae]" started-at="2022-02-07T11:22:26Z" name="openUrl" finished-at="2022-02-07T11:22:29Z" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_Electronics()[pri:0, instance:com.FlipkartProject.Tests.ElectronicsTest@cd7f1ae]" started-at="2022-02-07T11:22:29Z" name="Test_01_Electronics" finished-at="2022-02-07T11:22:30Z" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_Electronics -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.ElectronicsTest@cd7f1ae]" started-at="2022-02-07T11:22:30Z" name="attachScreenshot" finished-at="2022-02-07T11:22:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_Electronics status=SUCCESS method=ElectronicsTest.Test_01_Electronics()[pri:0, instance:com.FlipkartProject.Tests.ElectronicsTest@cd7f1ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.ElectronicsTest@cd7f1ae]" started-at="2022-02-07T11:22:30Z" name="closeBrowser" finished-at="2022-02-07T11:22:30Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.FlipkartProject.Tests.ElectronicsTest -->
+      <class name="com.FlipkartProject.Tests.GroceryTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:16Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:18Z" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:18Z" name="openUrl" finished-at="2022-02-07T11:22:20Z" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_groceryPageVerification()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:20Z" name="Test_01_groceryPageVerification" finished-at="2022-02-07T11:22:20Z" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_groceryPageVerification -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:20Z" name="closeBrowser" finished-at="2022-02-07T11:22:20Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:20Z" name="attachScreenshot" finished-at="2022-02-07T11:22:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_groceryPageVerification status=SUCCESS method=GroceryTest.Test_01_groceryPageVerification()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:20Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:22Z" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:22Z" name="openUrl" finished-at="2022-02-07T11:22:24Z" duration-ms="2262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_02_groceryProductSearch()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:24Z" name="Test_02_groceryProductSearch" finished-at="2022-02-07T11:22:24Z" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02_groceryProductSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:24Z" name="closeBrowser" finished-at="2022-02-07T11:22:25Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956]" started-at="2022-02-07T11:22:24Z" name="attachScreenshot" finished-at="2022-02-07T11:22:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_02_groceryProductSearch status=SUCCESS method=GroceryTest.Test_02_groceryProductSearch()[pri:0, instance:com.FlipkartProject.Tests.GroceryTest@673bb956] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.FlipkartProject.Tests.GroceryTest -->
+      <class name="com.FlipkartProject.Tests.FashionTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.FashionTest@60e949e1]" started-at="2022-02-07T11:22:30Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:32Z" duration-ms="1359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.FashionTest@60e949e1]" started-at="2022-02-07T11:22:32Z" name="openUrl" finished-at="2022-02-07T11:22:36Z" duration-ms="4544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_fashion()[pri:0, instance:com.FlipkartProject.Tests.FashionTest@60e949e1]" started-at="2022-02-07T11:22:36Z" name="Test_01_fashion" finished-at="2022-02-07T11:22:38Z" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_fashion -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.FashionTest@60e949e1]" started-at="2022-02-07T11:22:38Z" name="closeBrowser" finished-at="2022-02-07T11:22:38Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.FashionTest@60e949e1]" started-at="2022-02-07T11:22:38Z" name="attachScreenshot" finished-at="2022-02-07T11:22:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_fashion status=SUCCESS method=FashionTest.Test_01_fashion()[pri:0, instance:com.FlipkartProject.Tests.FashionTest@60e949e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.FlipkartProject.Tests.FashionTest -->
+      <class name="com.FlipkartProject.Tests.ProductSpecificationTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:22:47Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:48Z" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:22:48Z" name="openUrl" finished-at="2022-02-07T11:22:50Z" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_changeColorAndStorage()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:22:50Z" name="Test_01_changeColorAndStorage" finished-at="2022-02-07T11:22:54Z" duration-ms="4021" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [APPLE iPhone 12 ( 64 GB GB Storage, 0 GB RAM ) Online at Best Price On Flipkart.com] but found [Buy Apple iPhone 12 ( 128 GB Storage ) Online at Best Price On Flipkart.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [APPLE iPhone 12 ( 64 GB GB Storage, 0 GB RAM ) Online at Best Price On Flipkart.com] but found [Buy Apple iPhone 12 ( 128 GB Storage ) Online at Best Price On Flipkart.com]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.FlipkartProject.Tests.ProductSpecificationTest.Test_01_changeColorAndStorage(ProductSpecificationTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_changeColorAndStorage -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:22:54Z" name="attachScreenshot" finished-at="2022-02-07T11:22:54Z" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_changeColorAndStorage status=FAILURE method=ProductSpecificationTest.Test_01_changeColorAndStorage()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:22:54Z" name="closeBrowser" finished-at="2022-02-07T11:22:55Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:22:55Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:56Z" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:22:56Z" name="openUrl" finished-at="2022-02-07T11:22:58Z" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_02_changePincode()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:22:58Z" name="Test_02_changePincode" finished-at="2022-02-07T11:23:01Z" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02_changePincode -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:23:01Z" name="attachScreenshot" finished-at="2022-02-07T11:23:01Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_02_changePincode status=SUCCESS method=ProductSpecificationTest.Test_02_changePincode()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:23:01Z" name="closeBrowser" finished-at="2022-02-07T11:23:01Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:23:01Z" name="intializeWebdriver" finished-at="2022-02-07T11:23:03Z" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:23:03Z" name="openUrl" finished-at="2022-02-07T11:23:05Z" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_03_Reviews()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:23:05Z" name="Test_03_Reviews" finished-at="2022-02-07T11:23:07Z" duration-ms="1973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03_Reviews -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:23:07Z" name="closeBrowser" finished-at="2022-02-07T11:23:07Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a]" started-at="2022-02-07T11:23:07Z" name="attachScreenshot" finished-at="2022-02-07T11:23:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_03_Reviews status=SUCCESS method=ProductSpecificationTest.Test_03_Reviews()[pri:0, instance:com.FlipkartProject.Tests.ProductSpecificationTest@680362a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.FlipkartProject.Tests.ProductSpecificationTest -->
+      <class name="com.FlipkartProject.Tests.MyProfileTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:36Z" name="intializeWebdriver" finished-at="2022-02-07T11:23:38Z" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:38Z" name="openUrl" finished-at="2022-02-07T11:23:40Z" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_myAddress()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:40Z" name="Test_01_myAddress" finished-at="2022-02-07T11:23:46Z" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_myAddress -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:46Z" name="attachScreenshot" finished-at="2022-02-07T11:23:46Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_myAddress status=SUCCESS method=MyProfileTest.Test_01_myAddress()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:46Z" name="closeBrowser" finished-at="2022-02-07T11:23:46Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:46Z" name="intializeWebdriver" finished-at="2022-02-07T11:23:47Z" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:47Z" name="openUrl" finished-at="2022-02-07T11:23:50Z" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_02_deleteSavedAddress()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:50Z" name="Test_02_deleteSavedAddress" finished-at="2022-02-07T11:23:54Z" duration-ms="4142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02_deleteSavedAddress -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:54Z" name="attachScreenshot" finished-at="2022-02-07T11:23:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_02_deleteSavedAddress status=SUCCESS method=MyProfileTest.Test_02_deleteSavedAddress()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.MyProfileTest@1f651cd8]" started-at="2022-02-07T11:23:54Z" name="closeBrowser" finished-at="2022-02-07T11:23:54Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.FlipkartProject.Tests.MyProfileTest -->
+      <class name="com.FlipkartProject.Tests.AddToCartTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.AddToCartTest@7d0332e1]" started-at="2022-02-07T11:23:54Z" name="intializeWebdriver" finished-at="2022-02-07T11:23:56Z" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.AddToCartTest@7d0332e1]" started-at="2022-02-07T11:23:56Z" name="openUrl" finished-at="2022-02-07T11:23:58Z" duration-ms="2240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_addTOCart()[pri:0, instance:com.FlipkartProject.Tests.AddToCartTest@7d0332e1]" started-at="2022-02-07T11:23:58Z" name="Test_01_addTOCart" finished-at="2022-02-07T11:24:00Z" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_addTOCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.AddToCartTest@7d0332e1]" started-at="2022-02-07T11:24:00Z" name="closeBrowser" finished-at="2022-02-07T11:24:00Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.AddToCartTest@7d0332e1]" started-at="2022-02-07T11:24:00Z" name="attachScreenshot" finished-at="2022-02-07T11:24:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_addTOCart status=SUCCESS method=AddToCartTest.Test_01_addTOCart()[pri:0, instance:com.FlipkartProject.Tests.AddToCartTest@7d0332e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.FlipkartProject.Tests.AddToCartTest -->
+      <class name="com.FlipkartProject.Tests.LoginTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:21:29Z" name="setExtent" finished-at="2022-02-07T11:21:29Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:21:29Z" name="intializeWebdriver" finished-at="2022-02-07T11:21:32Z" duration-ms="3042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:21:32Z" name="openUrl" finished-at="2022-02-07T11:21:40Z" duration-ms="7721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_invalidLogin()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:21:40Z" name="Test_01_invalidLogin" finished-at="2022-02-07T11:22:01Z" duration-ms="21296" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(text(),'Naina')] (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(text(),'Naina')] (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.FlipkartProject.Pages.LoginPage.loginButton(LoginPage.java:57)
+at com.FlipkartProject.Tests.LoginTest.Test_01_invalidLogin(LoginTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Naina')]"}
+  (Session info: headless chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NAINA', ip: '192.168.101.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\naina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b466bb7d7f52b59992fb44ec73a3e4d
+*** Element info: {Using=xpath, value=//div[contains(text(),'Naina')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_invalidLogin -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:01Z" name="attachScreenshot" finished-at="2022-02-07T11:22:01Z" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_invalidLogin status=FAILURE method=LoginTest.Test_01_invalidLogin()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:01Z" name="closeBrowser" finished-at="2022-02-07T11:22:02Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:02Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:03Z" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:03Z" name="openUrl" finished-at="2022-02-07T11:22:07Z" duration-ms="4404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_02_validLogin()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:07Z" name="Test_02_validLogin" finished-at="2022-02-07T11:22:10Z" duration-ms="2642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02_validLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:10Z" name="closeBrowser" finished-at="2022-02-07T11:22:10Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:10Z" name="attachScreenshot" finished-at="2022-02-07T11:22:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_02_validLogin status=SUCCESS method=LoginTest.Test_02_validLogin()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:10Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:11Z" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:11Z" name="openUrl" finished-at="2022-02-07T11:22:13Z" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_03_logout()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:13Z" name="Test_03_logout" finished-at="2022-02-07T11:22:16Z" duration-ms="2672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03_logout -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:16Z" name="attachScreenshot" finished-at="2022-02-07T11:22:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_03_logout status=SUCCESS method=LoginTest.Test_03_logout()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:22:16Z" name="closeBrowser" finished-at="2022-02-07T11:22:16Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.FlipkartProject.Tests.LoginTest@13e9f2e2]" started-at="2022-02-07T11:24:42Z" name="endReport" finished-at="2022-02-07T11:24:43Z" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.FlipkartProject.Tests.LoginTest -->
+      <class name="com.FlipkartProject.Tests.SearchProductTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:27Z" name="intializeWebdriver" finished-at="2022-02-07T11:24:28Z" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:28Z" name="openUrl" finished-at="2022-02-07T11:24:31Z" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_searchAndAddToWishlist()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:31Z" name="Test_01_searchAndAddToWishlist" finished-at="2022-02-07T11:24:34Z" duration-ms="3945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_searchAndAddToWishlist -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:34Z" name="attachScreenshot" finished-at="2022-02-07T11:24:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_searchAndAddToWishlist status=SUCCESS method=SearchProductTest.Test_01_searchAndAddToWishlist()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:34Z" name="closeBrowser" finished-at="2022-02-07T11:24:35Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:35Z" name="intializeWebdriver" finished-at="2022-02-07T11:24:36Z" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:36Z" name="openUrl" finished-at="2022-02-07T11:24:38Z" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_02_deleteFromWishlist()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:38Z" name="Test_02_deleteFromWishlist" finished-at="2022-02-07T11:24:42Z" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02_deleteFromWishlist -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:42Z" name="closeBrowser" finished-at="2022-02-07T11:24:42Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db]" started-at="2022-02-07T11:24:42Z" name="attachScreenshot" finished-at="2022-02-07T11:24:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_02_deleteFromWishlist status=SUCCESS method=SearchProductTest.Test_02_deleteFromWishlist()[pri:0, instance:com.FlipkartProject.Tests.SearchProductTest@c827db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.FlipkartProject.Tests.SearchProductTest -->
+      <class name="com.FlipkartProject.Tests.PageNavigationTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.PageNavigationTest@3c4bc9fc]" started-at="2022-02-07T11:22:38Z" name="intializeWebdriver" finished-at="2022-02-07T11:22:39Z" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.PageNavigationTest@3c4bc9fc]" started-at="2022-02-07T11:22:39Z" name="openUrl" finished-at="2022-02-07T11:22:45Z" duration-ms="6331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_navigation()[pri:0, instance:com.FlipkartProject.Tests.PageNavigationTest@3c4bc9fc]" started-at="2022-02-07T11:22:45Z" name="Test_01_navigation" finished-at="2022-02-07T11:22:47Z" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_navigation -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.PageNavigationTest@3c4bc9fc]" started-at="2022-02-07T11:22:47Z" name="attachScreenshot" finished-at="2022-02-07T11:22:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_navigation status=SUCCESS method=PageNavigationTest.Test_01_navigation()[pri:0, instance:com.FlipkartProject.Tests.PageNavigationTest@3c4bc9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.PageNavigationTest@3c4bc9fc]" started-at="2022-02-07T11:22:47Z" name="closeBrowser" finished-at="2022-02-07T11:22:47Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.FlipkartProject.Tests.PageNavigationTest -->
+      <class name="com.FlipkartProject.Tests.FiltersTest">
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:00Z" name="intializeWebdriver" finished-at="2022-02-07T11:24:02Z" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:02Z" name="openUrl" finished-at="2022-02-07T11:24:16Z" duration-ms="14173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_01_popularityFilter()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:16Z" name="Test_01_popularityFilter" finished-at="2022-02-07T11:24:17Z" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_popularityFilter -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:17Z" name="closeBrowser" finished-at="2022-02-07T11:24:17Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:17Z" name="attachScreenshot" finished-at="2022-02-07T11:24:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_01_popularityFilter status=SUCCESS method=FiltersTest.Test_01_popularityFilter()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:17Z" name="intializeWebdriver" finished-at="2022-02-07T11:24:19Z" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:19Z" name="openUrl" finished-at="2022-02-07T11:24:21Z" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_02_priceLowToHigh()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:21Z" name="Test_02_priceLowToHigh" finished-at="2022-02-07T11:24:22Z" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02_priceLowToHigh -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:22Z" name="closeBrowser" finished-at="2022-02-07T11:24:22Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:22Z" name="attachScreenshot" finished-at="2022-02-07T11:24:22Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_02_priceLowToHigh status=SUCCESS method=FiltersTest.Test_02_priceLowToHigh()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:22Z" name="intializeWebdriver" finished-at="2022-02-07T11:24:23Z" duration-ms="1341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:23Z" name="openUrl" finished-at="2022-02-07T11:24:26Z" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Test_03_priceHighToLow()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:26Z" name="Test_03_priceHighToLow" finished-at="2022-02-07T11:24:27Z" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03_priceHighToLow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:27Z" name="closeBrowser" finished-at="2022-02-07T11:24:27Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d]" started-at="2022-02-07T11:24:27Z" name="attachScreenshot" finished-at="2022-02-07T11:24:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_03_priceHighToLow status=SUCCESS method=FiltersTest.Test_03_priceHighToLow()[pri:0, instance:com.FlipkartProject.Tests.FiltersTest@7a356a0d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.FlipkartProject.Tests.FiltersTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,42 @@
+[INFO ] 2022-02-07 16:51:40.514 [main] BaseTest - InvalidLogin : Invalid Login Test Started
+[INFO ] 2022-02-07 16:52:07.712 [main] BaseTest - ValidLogin : Valid Login Test Started
+[INFO ] 2022-02-07 16:52:10.351 [main] BaseTest - Valid Login Test is successful
+[INFO ] 2022-02-07 16:52:13.981 [main] BaseTest - Logout : Logout Test Started
+[INFO ] 2022-02-07 16:52:16.650 [main] BaseTest - Logout Test is successful
+[INFO ] 2022-02-07 16:52:20.654 [main] BaseTest - GroceryPageVerification : GroceryPageVerification Test is Started
+[INFO ] 2022-02-07 16:52:20.847 [main] BaseTest - GroceryPageVerification Test is successful
+[INFO ] 2022-02-07 16:52:24.455 [main] BaseTest - GroceryProductSearch : GroceryProductSearch test started
+[INFO ] 2022-02-07 16:52:24.924 [main] BaseTest - GroceryProductSearch test is successful
+[INFO ] 2022-02-07 16:52:29.097 [main] BaseTest - Electronics : Electronics Test is Started
+[INFO ] 2022-02-07 16:52:30.606 [main] BaseTest - Electronics Test is successful
+[INFO ] 2022-02-07 16:52:36.634 [main] BaseTest - Fashion : Fashion Test Started
+[INFO ] 2022-02-07 16:52:38.243 [main] BaseTest - Fashion Test is successful
+[INFO ] 2022-02-07 16:52:45.974 [main] BaseTest - Navigation : Navigation Test Started
+[INFO ] 2022-02-07 16:52:47.123 [main] BaseTest - Navigation Test is successful
+[INFO ] 2022-02-07 16:52:50.863 [main] BaseTest - ChangeColorAndStorage : ChangeColorAndStorage Test Started
+[INFO ] 2022-02-07 16:52:58.845 [main] BaseTest - ChangePincode : ChangePincode Test Started
+[INFO ] 2022-02-07 16:53:01.855 [main] BaseTest - ChangePincode Test is successful
+[INFO ] 2022-02-07 16:53:05.323 [main] BaseTest - Reviews : Reviews Test Started
+[INFO ] 2022-02-07 16:53:07.295 [main] BaseTest - Reviews Test is successful
+[INFO ] 2022-02-07 16:53:10.881 [main] BaseTest - MyOrders : MyOrders Test is Started
+[INFO ] 2022-02-07 16:53:16.392 [main] BaseTest - MyOrders Test is successful
+[INFO ] 2022-02-07 16:53:19.868 [main] BaseTest - OrderIn2020 : OrderIn2020 Test is Started
+[INFO ] 2022-02-07 16:53:25.110 [main] BaseTest - OrderIn2020 Test is successful
+[INFO ] 2022-02-07 16:53:28.710 [main] BaseTest - ReviewOrder : ReviewOrder test is started
+[INFO ] 2022-02-07 16:53:35.925 [main] BaseTest - ReviewOrder test is successful
+[INFO ] 2022-02-07 16:53:40.787 [main] BaseTest - MyAddress : MyAddress Test is Started
+[INFO ] 2022-02-07 16:53:46.431 [main] BaseTest - MyAddress Test is successful
+[INFO ] 2022-02-07 16:53:50.742 [main] BaseTest - DeleteSavedAddress : DeleteSavedAddress Test is Started
+[INFO ] 2022-02-07 16:53:54.882 [main] BaseTest - DeleteSavedAddress Test is successfull
+[INFO ] 2022-02-07 16:54:00.669 [main] BaseTest - AddTOCart : AddTOCart Test Started
+[INFO ] 2022-02-07 16:54:00.795 [main] BaseTest - AddTOCart Test is successful
+[INFO ] 2022-02-07 16:54:16.451 [main] BaseTest - PopularityFilter : PopularityFilter Test Started
+[INFO ] 2022-02-07 16:54:17.614 [main] BaseTest - PopularityFilter Test is successful
+[INFO ] 2022-02-07 16:54:21.317 [main] BaseTest - PriceLowToHigh : PriceLowToHigh Test Started
+[INFO ] 2022-02-07 16:54:22.432 [main] BaseTest - PriceLowToHigh Test is successful
+[INFO ] 2022-02-07 16:54:26.265 [main] BaseTest - PriceHighToLow : PriceHighToLow Test Started
+[INFO ] 2022-02-07 16:54:27.428 [main] BaseTest - PriceHighToLow Test is successful
+[INFO ] 2022-02-07 16:54:31.064 [main] BaseTest - SearchAndAddToWishlist : searchAndAddToWishlist Test is started
+[INFO ] 2022-02-07 16:54:34.996 [main] BaseTest - searchAndAddToWishlist Test is successful
+[INFO ] 2022-02-07 16:54:38.654 [main] BaseTest - DeleteFromWishlist :  DeleteFromWishlist Test is started
+[INFO ] 2022-02-07 16:54:42.843 [main] BaseTest - DeleteFromWishlist test is successful
